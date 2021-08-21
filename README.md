@@ -1,5 +1,7 @@
 # Overview
 
+![SEO Test Demo](demo/Animation.gif)
+
 Verity SEO test assignment
 
 # Solution Structure
@@ -38,5 +40,3 @@ and run script:
 "open": "npx cypress open"
 ```
 Once cypress runner is loaded click on the **verity-assignment.spec.ts**
-
-![SEO Test Demo](demo/Animation.gif)
