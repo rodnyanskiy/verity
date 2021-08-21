@@ -1,6 +1,6 @@
-describe ('Evaluate CEA algorithm', () => {
+describe ('Evaluate SEA algorithm', () => {
     before (() => {
-        cy.intercept('GET', '**complete/search?*').as('load')
+        cy.intercept('GET', '**complete/search?*', {times: 5}).as('load')
         cy.visit('/');
         cy.wait('@load');
     });

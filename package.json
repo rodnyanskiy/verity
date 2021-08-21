@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "open": "npx cypress open"
+    "open": "npx cypress open",
+    "run": "npx cypress run",
+    "run:edge": "npx cypress run --browser edge",
+    "run:firefox": "npx cypress run --browser firefox"
   },
   "devDependencies": {
     "cypress": "^8.3.0",
